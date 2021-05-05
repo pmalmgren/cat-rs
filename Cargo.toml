@@ -1,5 +1,5 @@
 [package]
-name = "io_uring"
+name = "cat_iou"
 version = "0.1.0"
 authors = ["Peter Malmgren <ptmalmgren@gmail.com>"]
 edition = "2018"

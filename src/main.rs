@@ -61,7 +61,6 @@ fn main() {
         let mut sqe = sq.prepare_sqe().expect("Preparing SQE");
         let mut io_bufs: Vec<io::IoSliceMut> = Vec::with_capacity(io_req.chunks);
         for buf in &mut io_req.bufs {
-            //here
             io_bufs.push(io::IoSliceMut::new(buf));
         }
         unsafe {
